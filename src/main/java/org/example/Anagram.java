@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.*;
 public class Anagram {
     public static void displayAnagramPairs(String[] words) {
@@ -18,10 +20,11 @@ public class Anagram {
 
             List<String> anagrams = map.get(key);
 //Takes the list of anagrams with the word inserted, and prints them if there are more then one words available
-           if (anagrams.size() > 1) {
+            if (anagrams.size() > 1) {
                 // Join the anagrams with commas and print them
                 System.out.println(String.join(", ", anagrams));
             }
         }
     }
 }
+

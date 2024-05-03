@@ -2,6 +2,11 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String[] words = {"listen", "silent", "enlist", "hello", "world", "dog", "god"};
+        // Call the method to display anagram pairs
+
+
+
+
     }
 }
